@@ -1,0 +1,75 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+    .players {
+        display: flex;
+        justify-content: space-between;
+    }
+    .player {
+        width: 48%;
+        text-align: center;
+        padding: 15px;
+        background: #f0f0f0;
+        border-radius: 10px;
+    }
+    .player img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .stats {
+        margin-top: 20px;
+    }
+    .stat {
+        margin: 10px 0;
+    }
+    .signup-btn {
+        display: block;
+        width: 200px;
+        margin: 30px auto;
+        padding: 10px;
+        background: #4CAF50;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <h1>Messi vs Ronaldo</h1>
+    
+    <div class="players">
+        <!-- Messi -->
+        <div class="player">
+            <h2>Messi</h2>
+            <img src="messi.jpg" alt="Messi">
+            <div class="stats">
+                <div class="stat">Goals: 858 </div>
+                <div class="stat">Assists: 381</div>
+                <div class="stat">Trophies: 44</div>
+            </div>
+        </div>
+        
+        <!-- Ronaldo -->
+        <div class="player">
+            <h2>Ronaldo</h2>
+            <img src="ronaldo.jpg" alt="Ronaldo">
+            <div class="stats">
+                <div class="stat">Goals: 933</div>
+                <div class="stat">Assists: 257 </div>
+                <div class="stat">Trophies: 35</div>
+            </div>
+        </div>
+    </div>
+    
+    <a href="signup.html" class="signup-btn">Sign Up to Compare More Players</a>
+</body>
+</html>
